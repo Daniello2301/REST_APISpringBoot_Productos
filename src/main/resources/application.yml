@@ -1,0 +1,17 @@
+server:
+  port: 8005
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DSS_final
+    username: postgres
+    password: 1234
+
+security:
+  oauth2:
+    jwt:
+      key: 3st03sVn4Cl4V3
+      expire: 10800
+    client:
+      id: dev
+      secret: dev
